@@ -2,7 +2,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container-rapper {}
+.container-rapper {
+    
+}
 
 .container-rapper--red {
     background-color: #f05f40;
@@ -65,6 +67,10 @@ body {
 
 .page-header h2{
     margin-top: 0;
+}
+
+.quotes .page-header {
+    scroll-margin-bottom: 25px;
 }
 
 /*block-dividers*/
@@ -173,4 +179,20 @@ body {
 .feature {
     text-align: center;
     margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
